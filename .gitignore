@@ -1,0 +1,107 @@
+# Laravel specific
+/vendor/
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.production
+!.env.example
+
+# Storage logs
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*.log
+!storage/framework/cache/.gitignore
+!storage/framework/sessions/.gitignore
+!storage/framework/views/.gitignore
+!storage/logs/.gitignore
+!storage/app/.gitignore
+!storage/app/public/.gitignore
+
+# Compiled class files
+/bootstrap/cache/
+*.php.cache
+
+# Testing
+/coverage/
+.phpunit.result.cache
+
+# IDE files
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local development
+/public/hot
+/public/storage
+Homestead.json
+Homestead.yaml
+
+# Deployment
+/.fleet/
+/.nova/
+/Deployerfile
+
+# Composer
+/composer.phar
+/composer.lock
+
+# Laravel specific additional files
+/database/database.sqlite
+/database/*.sqlite*
+
+# PHPStorm
+*.iws
+
+# NetBeans
+/nbproject/private/
+
+# Backup files
+*.backup
+*.bak
+
+# Local development server
+/.phpunit.result.cache
+/.styleci.yml
+
+# Laravel Sail
+/.dockerignore
+/.env.*.local
+/docker-compose.override.yml
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+$RECYCLE.BIN/
+*.lnk
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
